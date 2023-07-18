@@ -1,0 +1,139 @@
+.FooterContainer {
+    display: flex;
+    align-items: center;
+    padding: 40px 275px;
+    flex-direction: column;
+}
+
+.removepadding {
+    padding: 0;
+}
+
+.topFoot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topLeft {
+    display: flex;
+}
+
+.topLeft h2 {
+    margin-left: 10px;
+    border: 2px solid gray;
+    padding: 2px 9px;
+
+}
+
+.lowerFoot {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    text-align: left;
+}
+
+.Headings {
+    font-weight: 500;
+    color: black;
+}
+
+
+.ResTop {
+    margin-bottom: 20px;
+}
+
+.lowerText {
+    color: grey;
+    border-top: 2px solid black;
+}
+
+.MediaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MediaContainer img {
+    height: 35px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.Media {
+    margin-top: 10px;
+    display: flex;
+    width: 112px;
+}
+
+.info li:not(:first-child) {
+    color: grey;
+    text-align: left;
+}
+
+.ZomaVerse li:not(:first-child) {
+    color: grey;
+    text-align: left;
+}
+
+.forResturant li:not(:first-child) {
+    color: grey;
+    text-align: left;
+}
+
+.learnMore li:not(:first-child) {
+    color: grey;
+    text-align: left;
+}
+
+.Media a {
+    margin-right: 5px;
+}
+
+li {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .FooterContainer {
+        padding: 40px 40px;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .FooterContainer {
+        padding: 40px 40px;
+    }
+
+    .lowerFoot {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Headings {
+        margin-top: 20px;
+    }
+
+    .topLeft h2 {
+        font-size: 15px;
+        padding: 1px 5px;
+    }
+
+    .topFoot {
+        height: 56px;
+        align-items: center;
+    }
+
+    .commonLow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

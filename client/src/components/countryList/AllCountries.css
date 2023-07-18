@@ -1,0 +1,59 @@
+.CountryContainer{
+    display: flex;
+    align-items: center;
+    padding:  40px 200px;
+    flex-direction: column;
+}
+
+.CountryContainer h1{
+    text-align: left;
+}
+
+.country{
+    display: grid;
+    grid: 105px/1fr 1fr 1fr;
+}
+
+.LeftPart{
+    display: flex;
+    align-items: center;
+}
+
+.flag{
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.list{
+    border: 2px solid grey;
+    height: 64px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .CountryContainer{
+        padding:  40px 50px;
+    }
+    
+    .country{
+        grid: 80px/1fr 1fr;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .CountryContainer{
+        padding:  40px 40px;
+    }
+
+    .country{
+        grid: 80px/1fr;
+    }
+    
+}

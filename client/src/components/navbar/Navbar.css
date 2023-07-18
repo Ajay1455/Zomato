@@ -1,0 +1,38 @@
+.NavContainer{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 20px 0;
+    color: white;
+}
+
+.Rightone{
+    display: flex;
+    list-style:none;
+    margin-right: 18rem;
+    font-size: 24px;
+}
+
+.Rightone li{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+    .NavContainer{
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+
+    .NavContainer{
+        justify-content: center;
+    }
+
+    .Rightone{
+        margin-right: 0;
+        font-size: 20px;
+    }
+
+}

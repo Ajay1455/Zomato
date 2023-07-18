@@ -1,0 +1,91 @@
+.RestroContainer{
+    /* width: 100%; */
+    /* background-color: antiquewhite; */
+    text-align: center;
+    padding:0 190px;
+}
+
+.nextNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.nextNavbar h2{
+    font-weight: lighter;
+    color: grey;
+}
+
+.RestaurantsFetch{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 90px;
+    justify-content:space-between;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    /* padding: 40px 200px; */
+}
+
+.searchbar{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.restaurant{
+    /* border: 2px solid black; */
+    cursor: pointer;
+}
+
+.restaurant p {
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+    margin-top: 0;
+}
+
+.restaurant h3{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.titlerate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black    ;
+}
+
+.searchbar input{
+    width: 420px;
+    border: none;
+    font-size: 18px;
+}
+
+.HeadSearch select{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 850px) {
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+    .RestroContainer{
+        text-align: left;
+        padding:0;
+    }
+
+    .RestaurantsFetch{
+        grid-template-columns: auto;
+    }
+    
+}

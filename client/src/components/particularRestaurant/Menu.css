@@ -1,0 +1,25 @@
+.topmenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuSearch{
+    height: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    padding:5px;
+    border-radius: 8px;
+}
+
+.menuSearch input{
+    height: 30px;
+    width: 200px;
+    border: none;
+}
+
+.productdiv{
+    display: flex;
+}

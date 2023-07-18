@@ -1,0 +1,21 @@
+.HeaderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+.ContainText{
+    width: 420px;
+    text-align: center;
+}
+
+.ContainText h1{
+    font-size: 60px;
+}
+
+.ContainText p{
+    font-size: 30px;
+}

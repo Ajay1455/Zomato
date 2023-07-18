@@ -1,0 +1,75 @@
+.PopularContainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding:  40px 200px;
+    flex-direction: column;
+}
+
+.PopularTop{
+    margin-bottom: 40px;
+}
+
+.PopularTop h1{
+    font-weight:normal;
+}
+
+.PopularTop .India{
+    font-weight: bolder;
+}
+
+.PopularTop p{
+    color: grey;
+    font-size: 20px;
+}
+
+.locations{
+    color: black;
+    display: grid;
+    grid: 80px/1fr 1fr 1fr;
+}
+
+.Place{
+    border: 2px solid grey;
+    height: 40px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Place p{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .PopularContainer{
+        padding:  40px 50px;
+    }
+    
+    .locations{
+        grid: 80px/1fr 1fr;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .PopularContainer{
+        padding:  40px 40px;
+    }
+
+    .locations{
+        grid: 80px/1fr;
+    }
+
+    .PopularTop p{
+        font-size: 1rem;
+    }
+    .PopularTop h1{
+        font-size: 1.2rem;
+    }
+    
+}
