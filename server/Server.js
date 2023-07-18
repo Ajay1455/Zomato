@@ -3,17 +3,18 @@ const app = express();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const cors=require('cors');
-
+const dotenv = require("dotenv");
 const Restaurant = require("./model/Restaurants");
 const Product = require("./model/Product");
 
 const urlEncodedParser = bodyParser.urlencoded({ extended: true });
+dotenv.config();
 app.use(cors());
 app.use(bodyParser.json(), urlEncodedParser);
 
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/zomato")
+  .connect(process.env.MONGO_LINK)
   .then((res) => {
     console.log("connected");
   })
