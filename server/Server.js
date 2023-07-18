@@ -6,7 +6,7 @@ const cors=require('cors');
 const dotenv = require("dotenv");
 const Restaurant = require("./model/Restaurants");
 const Product = require("./model/Product");
-
+const port = process.env.PORT || 2000;
 const urlEncodedParser = bodyParser.urlencoded({ extended: true });
 dotenv.config();
 app.use(cors());
@@ -314,7 +314,9 @@ app.get("/products", (req,res)=>{
 })
 
 
-app.listen(2000, () => {
-  console.log("Listen to port 2000...");
-});
+if (port) {
+  app.listen(port, () => {
+    console.log(`Listening to port ....${port}`);
+  });
+}
 
