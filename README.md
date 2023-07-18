@@ -17,6 +17,9 @@ The website is live and can be accessed at [https://zomato-five.vercel.app](http
 ### Restaurant page
 ![Restaurant page](https://i.postimg.cc/hjrK8c7C/Screenshot-654.png)
 
+### Restaurant Menu page
+![Restaurant page](https://i.postimg.cc/qBw8qKgK/Screenshot-655.png)
+
 ## Features
 
 - Displaying a collection of restaurants and their menus
