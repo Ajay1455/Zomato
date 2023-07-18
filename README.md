@@ -1,4 +1,4 @@
-#Zomato Clone
+## Zomato Clone
 
 This project is a Zomato clone built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It aims to replicate some of the core features of the Zomato application, such as displaying restaurants and their menus.
 
